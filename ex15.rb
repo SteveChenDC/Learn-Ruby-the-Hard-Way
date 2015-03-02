@@ -6,6 +6,7 @@ txt = open(filename)
 puts "Here's your file #{filename}:"
 # Displays to user the txt document and reads it.
 print txt.read
+txt.close()
 # Prints string below to get user to retype file name
 print "Type the filename again: "
 # User input gets assigned to file_again
@@ -15,3 +16,5 @@ txt_again = open(file_again)
 
 # Prints txt_again and reads the contents
 print txt_again.read
+txt_again.close()
+
