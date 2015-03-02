@@ -1,0 +1,10 @@
+# Assigns Argument variable to filename variable
+filename = ARGV.first
+# txt variable is assigned the function of opening the indicated filename
+txt = open(filename)
+# Prints string below calling variable filename and indicating the file name entered.
+puts "Here's your file #{filename}:"
+# Displays to user the txt document and reads it.
+print txt.read
+# Prints string below to get user to retype file name
+
